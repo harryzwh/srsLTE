@@ -76,7 +76,7 @@ option(ENABLE_ASAN     "Enable gcc address sanitizer"             OFF)
 
 option(USE_LTE_RATES   "Use standard LTE sampling rates"          OFF)
 
-option(ENABLE_EMURF    "Enable emulated RF"                       OFF)
+option(ENABLE_EMURF    "Enable emulated RF"                       ON)
 set(GCC_ARCH native CACHE STRING "GCC compile for specific architecture.")
 
 
